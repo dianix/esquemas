@@ -39,7 +39,7 @@ body section:nth-child(2) {
     }
         body section:nth-child(2) :only-child :only-child {
             background-color: #414141;
-            position: fixed;
+            position: relative;
             margin-left: -75px;
             margin-top: -75px;  
         }

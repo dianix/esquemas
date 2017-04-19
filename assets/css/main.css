@@ -1,0 +1,45 @@
+.caja {
+    position: relative;
+}
+
+.abuela {
+    width: 300px;
+    height: 300px;
+    margin: 5% auto 0 auto;
+}
+
+.madre {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 25%;
+}
+
+.hija {
+    width: 75px;
+    height: 75px;
+}
+body section:first-child {
+    background-color: #ff004e;
+}
+    body section:first-child :only-child {
+        background-color: #7e00fc;
+    }
+        body section:first-child :only-child :only-child {
+            background-color: #fcf200;
+        }
+
+body section:nth-child(2) {
+    background-color: #0076ff;
+}
+    body section:nth-child(2) :only-child {
+        background-color: greenyellow;
+        
+    }
+        body section:nth-child(2) :only-child :only-child {
+            background-color: #414141;
+            position: fixed;
+            margin-left: -75px;
+            margin-top: -75px;  
+        }
